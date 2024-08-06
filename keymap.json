@@ -1,0 +1,52 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: Open Default Keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-t": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {}
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-t": "workspace::ToggleBottomDock",
+      "cmd-n": "workspace::NewTerminal",
+      "L": "pane::ActivateNextItem",
+      "H": "pane::ActivatePrevItem"
+    }
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "j j": ["workspace::SendKeystrokes", "escape"]
+      // "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "space f": "file_finder::Toggle",
+      "space e": "project_panel::ToggleFocus",
+      ";": ["workspace::SendKeystrokes", ":"],
+      "L": "pane::ActivateNextItem",
+      "H": "pane::ActivatePrevItem"
+      // "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock"
+    }
+  }
+]
