@@ -34,8 +34,8 @@
       "H": "pane::ActivatePrevItem",
       "ctrl-h": null,
       "ctrl-j": null,
-      "ctrl-k": null,
-      "ctrl-l": null
+      "ctrl-l": null,
+      "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"]
     }
   },
   {
