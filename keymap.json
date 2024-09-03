@@ -77,5 +77,11 @@
       "ctrl-k": ["workspace::ActivatePaneInDirection", "Up"],
       "ctrl-l": ["workspace::ActivatePaneInDirection", "Right"]
     }
+  },
+  {
+    "context": "ContextEditor > Editor && vim_mode == normal",
+    "bindings": {
+      "enter": "assistant::Assist"
+    }
   }
 ]
