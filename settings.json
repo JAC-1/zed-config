@@ -16,8 +16,8 @@
   "buffer_font_family": "0xProto Nerd Font",
 
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Frappé"
+    "dark": "Rosé Pine Moon"
   }
 }
