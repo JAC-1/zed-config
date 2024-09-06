@@ -7,18 +7,24 @@
 // custom settings, run the `zed: Open Default Settings` command
 // from the command palette
 {
+  "show_inline_completions": false,
+  "inline_completions": {
+    "disabled_globs": [".env", "app/ui/dashboard/nav-links.tsx"]
+  },
   "base_keymap": "VSCode",
   "vim_mode": true,
   "cursor_blink": false,
   "relative_line_numbers": true,
-  "ui_font_size": 18,
-  "buffer_font_size": 18,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
   "buffer_font_family": "0xProto Nerd Font",
   "assistant": {
+    "enabled": false,
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-20240620"
     },
+
     "version": "2",
     "default_width": 375
   },
