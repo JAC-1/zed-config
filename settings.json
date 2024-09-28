@@ -6,8 +6,19 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run the `zed: Open Default Settings` command
 // from the command palette
+// {
+//   "terminal": {
+//     "shell": {
+//       "program": "wsl.exe -u JAC-1"
+//     }
+//   },
 {
-  "show_inline_completions": false,
+  "tab_bar": {
+    // Whether or not to show the tab bar in the editor
+    "show": false,
+    // Whether or not to show the navigation history buttons.
+    "show_nav_history_buttons": false
+  },
   "inline_completions": {
     "disabled_globs": [".env", "app/ui/dashboard/nav-links.tsx"]
   },
@@ -17,9 +28,9 @@
   "relative_line_numbers": true,
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "buffer_font_family": "0xProto Nerd Font",
+  "buffer_font_family": "Hack Nerd Font",
   "assistant": {
-    "enabled": false,
+    "enabled": true,
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-20240620"
@@ -30,8 +41,8 @@
   },
 
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "One Light",
-    "dark": "Rosé Pine Moon"
+    "dark": "Rosé Pine"
   }
 }

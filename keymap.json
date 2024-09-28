@@ -10,6 +10,7 @@
     "context": "Workspace",
     "bindings": {
       "cmd-t": "terminal_panel::ToggleFocus",
+      "ctrl-t": "terminal_panel::ToggleFocus",
       "ctrl-h": null,
       "ctrl-j": null,
       "ctrl-k": null,
@@ -30,6 +31,8 @@
     "bindings": {
       "cmd-t": "workspace::ToggleBottomDock",
       "cmd-n": "workspace::NewTerminal",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "ctrl-n": "workspace::NewTerminal",
       "L": "pane::ActivateNextItem",
       "H": "pane::ActivatePrevItem",
       "ctrl-h": null,
